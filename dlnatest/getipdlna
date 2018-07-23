@@ -1,0 +1,6 @@
+var dlnacasts = require('dlnacasts')()
+ 
+dlnacasts.on('update', function (player) {
+  console.log('all players: ', dlnacasts.players)
+  
+})
